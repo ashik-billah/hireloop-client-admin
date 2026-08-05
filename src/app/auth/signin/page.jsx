@@ -46,6 +46,7 @@ export default function SigninPage() {
                 setEmail("");
                 setPassword("");
                 router.push(redirectTo);
+                // add
             }
         } catch (err) {
             setError("An unexpected network error occurred.");
