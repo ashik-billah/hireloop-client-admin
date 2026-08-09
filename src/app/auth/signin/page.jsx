@@ -105,7 +105,7 @@ export default function SigninPage() {
                         </InputGroup>
                     </TextField>
 
-                    {/* Dynamic Status Badges */}
+                    {/* Dynamic Status Badges add */}
                     {error && (
                         <div className="p-3.5 text-xs font-medium rounded-xl bg-red-100/60 dark:bg-red-950/50 text-red-700 dark:text-red-400 border border-red-200 dark:border-red-900">
                             <span className="font-semibold">Error:</span> {error}
