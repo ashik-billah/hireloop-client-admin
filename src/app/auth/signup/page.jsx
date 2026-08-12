@@ -8,7 +8,7 @@ import { Description, Radio, RadioGroup } from "@heroui/react";
 import { Eye, EyeSlash, Person, At, ShieldKeyhole } from "@gravity-ui/icons";
 import { signUp } from "@/lib/auth-client";
 import { useRouter, useSearchParams } from "next/navigation";
-
+//add
 export default function SignupPage() {
     // Form fields
     const [name, setName] = useState("");
