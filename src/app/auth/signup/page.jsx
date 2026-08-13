@@ -47,7 +47,7 @@ export default function SignupPage() {
                 role,
                 plan
             });
-
+// add
             if (authError) {
                 setError(authError.message || "Something went wrong during signup.");
             } else {
