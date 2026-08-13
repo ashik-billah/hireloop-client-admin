@@ -26,6 +26,7 @@ export default function SignupPage() {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
+    //add
 
     const toggleVisibility = () => setIsVisible(!isVisible);
 
