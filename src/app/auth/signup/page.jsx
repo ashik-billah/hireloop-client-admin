@@ -21,6 +21,7 @@ export default function SignupPage() {
     const redirectTo = searchParams.get("redirect") || "/";
 
     // UI States
+    //add
     const [isVisible, setIsVisible] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
