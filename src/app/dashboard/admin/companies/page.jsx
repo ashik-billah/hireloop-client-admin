@@ -18,6 +18,7 @@ const AdminCompaniesPage = async () => {
                         Total items submitted: {companies.length}
                     </p>
                 </div>
+                {/* add */}
                 
                 <CompanyTable companies={companies} />
             </div>
