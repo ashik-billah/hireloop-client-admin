@@ -2,6 +2,7 @@ import CompanyTable from '@/components/dashbaord/CompanyTable';
 import { getCompanies } from '@/lib/api/companies';
 import React from 'react';
 //add
+//add
 
 const AdminCompaniesPage = async () => {
     const companies = await getCompanies();
