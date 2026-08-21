@@ -5,6 +5,7 @@ const AdminDashboardHomePage = () => {
         <div>
             <h2>Admin stats</h2>
         </div>
+        // add
     );
 };
 
