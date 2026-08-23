@@ -34,6 +34,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
     const [errors, setErrors] = useState({});
     
     // Auxiliary Upload States
+    //add
     const [logoUrl, setLogoUrl] = useState('');
     const [isUploading, setIsUploading] = useState(false);
 
