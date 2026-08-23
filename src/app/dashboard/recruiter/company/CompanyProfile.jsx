@@ -39,6 +39,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
     const [isUploading, setIsUploading] = useState(false);
 
     // 2. Client side Imgbb Upload Handler
+    //add
     const handleLogoUpload = async (e) => {
         const file = e.target.files[0];
         if (!file) return;
