@@ -28,6 +28,7 @@ const textAreaClass = "w-full bg-zinc-900/50 border border-zinc-800 text-white r
 //DADD
 export default function CompanyProfile({ recruiter, recruiterCompany }) {
     // 1. Core State
+    //add
     const [company, setCompany] = useState(recruiterCompany); // Keeps null initially to showcase empty template structure
     const [isEditing, setIsEditing] = useState(false);
     const [errors, setErrors] = useState({});
