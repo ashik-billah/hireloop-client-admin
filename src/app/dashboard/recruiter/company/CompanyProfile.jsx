@@ -92,6 +92,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
         const description = formData.get('description');
 
         // Simple validation checks
+        //ADD
         const newErrors = {};
         if (!companyName) newErrors.companyName = "Company name is required";
         if (!websiteUrl) newErrors.websiteUrl = "Website link is required";
