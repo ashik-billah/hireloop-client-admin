@@ -135,6 +135,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
     };
 
     // 4. State Toggle helper triggers
+    //add
     const startRegistration = () => {
         // Hydrate blank template layout states
         setLogoUrl('');
