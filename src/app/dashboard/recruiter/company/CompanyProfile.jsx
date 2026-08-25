@@ -57,7 +57,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
 
         try {
             // Replace with your real IMGBB API key environmental variable injection
-            //add
+            //addgit 
             const IMGBB_API_KEY = process.env.NEXT_PUBLIC_IMAGE_UPLOAD_API; 
             const response = await fetch(`https://api.imgbb.com/1/upload?key=${IMGBB_API_KEY}`, {
                 method: 'POST',
@@ -79,6 +79,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
     };
 
     // 3. Submit Profile Form Data
+    //add
     const handleSubmit = async (e) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
