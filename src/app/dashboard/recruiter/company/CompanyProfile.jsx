@@ -173,6 +173,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
     //DD
 
     // --- SUB-VIEW 2: Render Presentation Dashboard view mode ---
+    //DD
     if (company && !isEditing) {
         const getStatusStyles = (status) => {
             switch(status) {
