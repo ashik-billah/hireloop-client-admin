@@ -217,7 +217,8 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                     </Button>
                 </div>
 
-                {/* Profile Meta Metrics Grid Section */}
+                {/* Profile Meta Metrics Grid Section  */}
+                {/* add */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <div className="bg-zinc-900/30 border border-zinc-900 p-4 rounded-lg">
                         <span className="text-xs text-zinc-500 uppercase font-semibold block">Industry Category</span>
