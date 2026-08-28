@@ -235,6 +235,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                 </div>
 
                 {/* Description Box View Section */}
+                {/* adakjfdk */}
                 {company.description && (
                     <div className="space-y-2">
                         <h3 className="text-sm font-semibold text-zinc-400 uppercase tracking-wider">About our Vision & Culture</h3>
