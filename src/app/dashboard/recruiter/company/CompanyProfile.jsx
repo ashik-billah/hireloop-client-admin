@@ -248,7 +248,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
         );
     }
 
-    // --- SUB-VIEW 3: Form Editing & Registration View Structure ---
+    // --- SUB-VIEW 3: Form Editing & Registration View Structure --- add
     return (
         <div className="max-w-3xl mx-auto my-8 bg-zinc-950 p-8 border border-zinc-900 rounded-xl">
             <Form onSubmit={handleSubmit} className="space-y-8" validationErrors={errors} validationBehavior="aria">
