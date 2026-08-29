@@ -282,7 +282,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                         </Select>
                     </div>
 
-                    {/* ROW 2: Website URL + Location */}
+                    {/* ROW 2: Website URL + Location  add*/}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <TextField name="websiteUrl" defaultValue={company?.websiteUrl || ''} Linda isInvalid={!!errors.websiteUrl} className="flex flex-col gap-1 w-full">
                             <Label className="text-zinc-400 font-medium text-sm">Website URL</Label>
