@@ -257,7 +257,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                         {company ? 'Update Company Profile' : 'Configure Workspace Platform'}
                     </legend>
 
-                    {/* ROW 1: Company Name + Industry */}
+                    {/* ROW 1: Company Name + Industry add  add*/}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         <TextField name="companyName" defaultValue={company?.name || ''} isInvalid={!!errors.companyName} className="flex flex-col gap-1 w-full">
                             <Label className="text-zinc-400 font-medium text-sm">Company Name</Label>
