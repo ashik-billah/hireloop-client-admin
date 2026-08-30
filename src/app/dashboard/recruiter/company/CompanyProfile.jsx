@@ -306,6 +306,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                     </div>
 
                     {/* ROW 3: Employee Count + Custom File Logo Upload Block */}
+                    //add
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
                         <Select className={selectBoxClass} name="employeeCount" defaultSelectedKeys={[company?.employeeCount || '1-10']}>
                             <Label className="text-zinc-400 font-medium text-sm mb-1 block">Employee Count Range</Label>
