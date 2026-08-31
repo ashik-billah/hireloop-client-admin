@@ -366,6 +366,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                 </Fieldset>
 
                 {/* Form Navigation Action Area controls */}
+                {/* add */}
                 <div className="flex justify-end gap-3 pt-5 border-t border-zinc-900 w-full">
                     {company && (
                         <Button
