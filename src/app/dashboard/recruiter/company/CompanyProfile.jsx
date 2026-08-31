@@ -354,6 +354,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                     </div>
 
                     {/* ROW 4: Full-Width TextArea Brief Description */}
+                    {/* //add */}
                     <TextField name="description" defaultValue={company?.description || ''} className="flex flex-col gap-1 w-full">
                         <Label className="text-zinc-400 font-medium text-sm">Brief Description</Label>
                         <TextArea
