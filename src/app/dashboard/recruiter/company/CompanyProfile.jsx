@@ -325,6 +325,7 @@ export default function CompanyProfile({ recruiter, recruiterCompany }) {
                         </Select>
 
                         {/* Custom Styled Upload Block matching attachment blueprint exactly */}
+                        {/* add|? */}
                         <div className="flex flex-col gap-1 w-full">
                             <span className="text-zinc-400 font-medium text-sm">Company Logo</span>
                             <div className="flex items-center gap-4 mt-1">
