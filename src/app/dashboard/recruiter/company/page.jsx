@@ -15,5 +15,5 @@ const CompanyPage = async () => {
         </div>
     );
 };
-
+// add
 export default CompanyPage;
