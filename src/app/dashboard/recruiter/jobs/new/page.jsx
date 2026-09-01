@@ -1,7 +1,7 @@
 import React from 'react';
 import PostJobForm from './PostJobForm';
 import { getLoggedInRecruiterCompany } from '@/lib/api/companies';
-
+//add
 const PostJobPage = async () => {
 
     const company = await getLoggedInRecruiterCompany();
