@@ -97,6 +97,7 @@ export default function PostJobForm({ company }) {
             <div className="max-w-3xl mx-auto bg-[#121214] border border-zinc-900 rounded-xl p-8 shadow-2xl">
 
                 {/* Form Header block */}
+                {/* add */}
                 <div className="border-b border-zinc-800 pb-6 mb-8">
                     <h1 className="text-2xl font-semibold tracking-tight">Post a New Job</h1>
                     <p className="text-zinc-400 text-sm mt-1">
