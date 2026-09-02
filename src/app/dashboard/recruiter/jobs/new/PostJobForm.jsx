@@ -26,6 +26,7 @@ export default function PostJobForm({ company }) {
     //     name: "Acme Corp (Auto-filled)",
     //     id: "company_123",
     //     isApproved: true,
+    //add
     // });
 
     const [isRemote, setIsRemote] = useState(false);
