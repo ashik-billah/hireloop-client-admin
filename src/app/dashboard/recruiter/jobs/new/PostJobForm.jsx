@@ -120,6 +120,7 @@ export default function PostJobForm({ company }) {
                 { company.status === 'Approved' && <Form onSubmit={handleSubmit} className="space-y-8" validationErrors={errors} validationBehavior='aria'>
 
                     {/* SECTION 1: Job Information */}
+                    {/* add */}
                     <Fieldset className="space-y-6 w-full">
                         <legend className="text-lg font-medium text-zinc-300 border-b border-zinc-900 w-full pb-2 mb-2">
                             Job Information
