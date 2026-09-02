@@ -39,6 +39,7 @@ export default function PostJobForm({ company }) {
         //     alert("Your company profile must be approved before you can post jobs.");
         //     return;
         // }
+        //add
 
         const formData = new FormData(e.currentTarget);
         const data = Object.fromEntries(formData.entries());
