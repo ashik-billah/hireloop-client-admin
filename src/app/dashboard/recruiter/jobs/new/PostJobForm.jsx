@@ -116,6 +116,7 @@ export default function PostJobForm({ company }) {
                 {company.status !== 'Approved' && <div>Please wait to get approval</div>}
 
                 {/* Hero UI Main Form Handler */}
+                {/* add */}
                 { company.status === 'Approved' && <Form onSubmit={handleSubmit} className="space-y-8" validationErrors={errors} validationBehavior='aria'>
 
                     {/* SECTION 1: Job Information */}
