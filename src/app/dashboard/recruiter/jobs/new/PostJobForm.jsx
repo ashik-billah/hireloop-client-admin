@@ -105,6 +105,7 @@ export default function PostJobForm({ company }) {
                     </p>
 
                     {/* Company verification status panel */}
+                    {/* add */}
                     <div className="mt-4 inline-flex items-center gap-2 bg-zinc-900/50 border border-zinc-800 rounded-lg px-3 py-1.5 text-xs text-zinc-400">
                         <Briefcase size={14} className="text-zinc-500" />
                         Posting as: <span className="font-semibold text-zinc-300">{company.name}</span>
