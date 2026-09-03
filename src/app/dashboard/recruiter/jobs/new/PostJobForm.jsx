@@ -170,6 +170,7 @@ export default function PostJobForm({ company }) {
                             </Select>
 
                             {/* Inline layout grouping for Salary and Currency mapping */}
+                            {/* add */}
                             <div className="grid grid-cols-3 gap-2">
                                 <div className="col-span-2 space-y-1">
                                     <span className="text-zinc-400 font-medium text-sm block">Salary Range</span>
