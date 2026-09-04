@@ -280,6 +280,7 @@ export default function PostJobForm({ company }) {
                     </Fieldset>
 
                     {/* Form Actions */}
+                    {/* add */}
                     <div className="flex justify-end gap-3 pt-4 border-t border-zinc-800 w-full">
                         <Button
                             type="button"
