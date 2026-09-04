@@ -206,6 +206,7 @@ export default function PostJobForm({ company }) {
                                     <span className="text-zinc-400 font-medium text-sm">Location</span>
 
                                     {/* Updated Switch using v3 Compound Component Syntax */}
+                                    {/* add */}
                                     <Switch
                                         isSelected={isRemote}
                                         onChange={setIsRemote}
