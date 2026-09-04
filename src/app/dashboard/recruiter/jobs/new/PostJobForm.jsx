@@ -243,6 +243,7 @@ export default function PostJobForm({ company }) {
                     </Fieldset>
 
                     {/* SECTION 2: Job Description */}
+                    {/* add */}
                     <Fieldset className="space-y-6 w-full">
                         <legend className="text-lg font-medium text-zinc-300 border-b border-zinc-900 w-full pb-2 mb-2">
                             Job Details & Description
