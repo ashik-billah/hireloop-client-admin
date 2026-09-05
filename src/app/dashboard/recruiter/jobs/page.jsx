@@ -11,6 +11,7 @@ const RecruiterJobs = async () => {
     const jobs = await getCompanyJobs(company._id) || []; 
 
     // Helper to determine status chip coloring
+    //add
     const getStatusColor = (status) => {
         switch (status?.toLowerCase()) {
             case 'active':
