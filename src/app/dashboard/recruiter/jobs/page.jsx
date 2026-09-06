@@ -66,6 +66,7 @@ const RecruiterJobs = async () => {
                                     </Table.Cell>
 
                                     {/* Type / Category */}
+                                    {/* add */}
                                     <Table.Cell>
                                         <div className="flex flex-col gap-0.5">
                                             <span className="text-sm capitalize font-medium">{job.jobType}</span>
