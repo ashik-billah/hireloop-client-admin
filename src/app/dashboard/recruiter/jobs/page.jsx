@@ -83,6 +83,7 @@ const RecruiterJobs = async () => {
                                     </Table.Cell>
 
                                     {/* Status */}
+                                    {/* add */}
                                     <Table.Cell>
                                         <Chip 
                                             color={getStatusColor(job.status)} 
