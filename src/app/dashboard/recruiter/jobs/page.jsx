@@ -96,6 +96,7 @@ const RecruiterJobs = async () => {
                                     </Table.Cell>
 
                                     {/* Actions */}
+                                    {/* add */}
                                     <Table.Cell>
                                         <div className="relative flex items-center gap-2">
                                             <Tooltip content="Video Details">
