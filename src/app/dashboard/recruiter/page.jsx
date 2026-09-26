@@ -4,6 +4,7 @@ import { useSession } from "@/lib/auth-client";
 import { Briefcase, Persons, Thunderbolt, CircleCheck } from '@gravity-ui/icons';
 import { DashboardStats } from '@/components/dashbaord/DashboardStats';
 //add
+//add
 const RecruiterDashboardHomePage = () => {
 
     const { data: session, isPending } = useSession();
