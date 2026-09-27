@@ -30,7 +30,7 @@ const formatRelativeTime = (dateString) => {
   const diffInWeeks = Math.floor(diffInDays / 7);
   return diffInWeeks === 1 ? "1 week ago" : `${diffInWeeks} weeks ago`;
 };
-
+//add
 // Helper mapping to choose icons and background colors based on the job title
 const getJobStyle = (title) => {
   const lowerTitle = title.toLowerCase();
