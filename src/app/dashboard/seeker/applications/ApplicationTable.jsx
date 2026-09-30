@@ -102,7 +102,7 @@ const ApplicationsTable = ({ jobs }) => {
             <Table.Body emptyContent={"No applications found."}>
               {jobs.map((job) => {
                 const style = getJobStyle(job.jobTitle);
-                
+                //add
                 // Static fallbacks for missing template mockup items
                 const workType = job.workType || "Full-time";
                 const locationType = job.locationType || "Remote";
