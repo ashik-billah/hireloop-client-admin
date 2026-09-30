@@ -70,7 +70,7 @@ const getStatusChip = (status = "Applied") => {
       return <Chip variant="bordered" className="border-zinc-600 text-zinc-100 text-xs font-medium">{status}</Chip>;
   }
 };
-
+//add
 const ApplicationsTable = ({ jobs }) => {
   return (
     <div className="w-full bg-[#121212] p-6 rounded-xl border border-zinc-800/80 min-h-screen text-zinc-100">
