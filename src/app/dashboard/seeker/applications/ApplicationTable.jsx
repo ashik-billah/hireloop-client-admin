@@ -104,6 +104,7 @@ const ApplicationsTable = ({ jobs }) => {
                 const style = getJobStyle(job.jobTitle);
                 //add
                 // Static fallbacks for missing template mockup items
+                //add
                 const workType = job.workType || "Full-time";
                 const locationType = job.locationType || "Remote";
                 const status = job.status || "Applied"; 
