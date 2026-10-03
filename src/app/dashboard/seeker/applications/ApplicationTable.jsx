@@ -12,6 +12,7 @@ import {
 } from '@gravity-ui/icons';
 //add
 // Utility helper to format the "Applied" relative time string
+//add
 const formatRelativeTime = (dateString) => {
   const now = new Date();
   const appliedDate = new Date(dateString);
@@ -112,6 +113,7 @@ const ApplicationsTable = ({ jobs }) => {
                 return (
                   <Table.Row key={job._id?.$oid || job.jobId}>
                     {/* JOB TITLE COLUMN */}
+                    addll
                     <Table.Cell>
                       <div className="flex items-center gap-4">
                         <div className={`p-2.5 rounded-lg flex items-center justify-center ${style.bg}`}>
