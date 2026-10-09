@@ -12,5 +12,5 @@ const ApplicationsPage = async() => {
         </div>
     );
 };
-
+//add
 export default ApplicationsPage;
