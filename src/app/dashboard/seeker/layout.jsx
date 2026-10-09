@@ -5,5 +5,5 @@ const SeekerLayout = async({children}) => {
     await requireRole('seeker');
     return children;
 };
-
+//add
 export default SeekerLayout;
