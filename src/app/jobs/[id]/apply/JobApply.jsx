@@ -22,7 +22,7 @@ const JobApply = ({ job, applicant }) => {
             [name]: value
         }));
     };
-
+//add
     const handleSubmit = async (e) => {
         e.preventDefault();
 
