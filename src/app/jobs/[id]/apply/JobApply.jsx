@@ -6,6 +6,8 @@ import { Form, Button, TextField, Label, Input, Description, FieldError } from '
 import { ArrowRight, Link, FileText, LayoutHeaderCells } from '@gravity-ui/icons';
 import { submitApplication } from '@/lib/actions/applications';
 //add
+
+//add
 const JobApply = ({ job, applicant }) => {
     const [formData, setFormData] = useState({
         resumeLink: '',
