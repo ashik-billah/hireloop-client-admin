@@ -40,6 +40,7 @@ const JobApply = ({ job, applicant }) => {
 
         console.log('Submitting Application:', submissionData);
         // Handle your API submission here
+        //DdA
         const res = await submitApplication(submissionData);
         if (res.insertedId) {
             alert('Application submitted successfully!');
